@@ -1,0 +1,167 @@
+
+#Card1{
+	/* Card1 */
+    position: absolute;
+    width: 358px;
+    height: 628px;
+    left: 577px;
+    top: 198px;
+
+    background: radial-gradient(100% 100% at 0% 0%, #F7F7F7 0%, #E6E6E6 100%) 
+    /* warning: gradient uses a rotation 
+    that is not supported by CSS and may 
+    not behave as expected */;
+    box-shadow: -24px 24px 96px rgba(0, 0, 0, 0.65);
+    z-index: 1;
+}
+
+#CardTitle1{
+	/* Filipe Lutz */
+
+    position: absolute;
+    width: 114px;
+    height: 28px;
+    left: 32px;
+    top: 352px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height */
+
+    color: #080808;
+}
+
+#CardP{
+	/* Student 
+	______ 
+	000 1234 5678 
+	25956@student.dorser-college.ie 
+	website.com 
+	______ 
+	17 Verazo Boulevard California 94043 */
+
+    position: absolute;
+    width: 227px;
+    height: 204px;
+    left: 32px;
+    top: 387px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+#bgGrey1{
+    /* BgRect1 */
+    position: absolute;
+    width: 720px;
+    height: 1024px;
+    left: 3px;
+    top: 0px;
+
+    background: #E9EAEC;
+    z-index: -1;
+}
+
+#bgGrey2{
+	/* BgRect2 */
+    position: absolute;
+    width: 753px;
+    height: 1024px;
+    left: 720px;
+    top: 0px;
+
+    background: #D5D6D8;
+    z-index: -1;
+}
+
+#title{
+    /* CLEAN MINIMALIST */
+    position: absolute;
+    width: 372px;
+    height: 150px;
+    left: 79px;
+    top: 218px;
+
+    font-family: inter;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.005em;
+
+    color: black;
+}
+
+#Card2{
+	/* Card2 */
+    position: absolute;
+    width: 358px;
+    height: 628px;
+    left: 999px;
+    top: 198px;
+
+    background: radial-gradient(100% 100% at 0% 0%, #F4F4F4 0%, #E5E5E5 100%) 
+    /* warning: gradient uses a rotation that 
+    is not supported by CSS and may not behave 
+    as expected */;
+    box-shadow: -24px 24px 96px rgba(0, 0, 0, 0.65);
+    z-index: -1;
+}
+
+#CardTitle2{
+	/* FL Designe */
+    position: absolute;
+    width: 124px;
+    height: 28px;
+    left: 33px;
+    top: 465px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    /* identical to box height */
+
+    color: #080808;
+
+}
+
+#CardP1{
+	/* 
+	UI/UX Designer 
+	______ 
+	website.com */
+
+    position: absolute;
+    width: 103px;
+    height: 85px;
+    left: 33px;
+    top: 503px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: #000000;
+}
+
+#Logo{
+	/* Logo */
+	position: absolute;
+    width: 117px;
+    height: 117px;
+    left: 201px;
+    top: 37px;
+
+}

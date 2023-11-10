@@ -1,0 +1,45 @@
+/*Colours:
+Mint Gree: #C7EDE4;
+Prussian Blue: #273043;
+Saffron Yellow: #EAC435;
+Rose Quartz: #AF9AB2;
+Rose Quartz Darker: #9E8FB2;
+*/
+
+h1{color: #273043; }
+h2{color: red; text-align: center; }
+h3{color: black; text-align: center; }
+body{background-color: lightyellow; color: #273043;}
+
+#container{
+	width: 1000px; 
+	background-color: #C7EDE4;
+	margin-left: auto;
+	margin-right: auto; }
+
+#header{
+	text-align: center;
+	background-color: #9E8FB2;
+	padding: 20px; }
+
+#content{ padding: 15px; }
+
+#nav{ 
+	width: 147px;
+	height: 300px; 
+    background-color: #9E8FB2;
+    float: left; }
+
+#main{
+	padding: 15px;
+	width: 780px;
+	height: 270px;
+    background-color: lightgray;
+    float: right; }
+
+#footer{ 
+	padding: 15px;
+	clear: both;
+    text-align: right;
+    background-color: #273043; 
+    color: #EAC435; }

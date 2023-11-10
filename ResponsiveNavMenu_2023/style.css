@@ -1,0 +1,64 @@
+/*-----ON BIG SCREENS-----*/
+#hamnav{
+	width: 100%;
+	background: #000;
+}
+/*horizontal menu item styling*/
+#hamitems{display: flex;}
+#hamitems a{
+	flex-grow: 1;
+	flex-basis: 0;
+	padding: 10px;
+	color: white;
+	text-decoration: none; /*remove underline styling*/
+	text-align: center;
+}
+#hamitems a:hover{ background: #af0d0d; }
+
+/*Hide Hamburger Icon*/
+#hamnav label, #hamburger{display: none;}
+
+    /*content styling*/
+    #content{
+	top: 10px;
+	padding: 20px;
+	height: 450px;
+	width: 550px;
+	border: 5px dashed grey;
+	border-radius: 24px;
+	background: black;
+    color: white;
+}
+/*---------ON SMALL SCREENS---------*/
+@media screen and (max-width: 768px)
+{
+#hamitems a{ /*make nav manu vertical*/
+	width: 100%;
+	box-sizing: border-box;
+	border-top: 1px solid #333;
+	display: block;}
+
+#hamnav label{ /*show hamburger icon*/
+	display: inline-block;
+	color: white;
+	background: #a02620;
+	font-style: normal;
+	font-size: 1.2em;
+	padding: 10px;
+}
+	/*Toggle show/hide menu*/
+	#hamitems{display: none;}
+	#hamnav input:checked ~ #hamitems{display: block;}
+
+    /*content styling*/
+	#content{
+	top: 10px;
+	padding: 20px;
+	height: 450px;
+	/*width: 250px;*/
+	flex-grow: 1;
+	border: 5px dashed grey;
+	border-radius: 24px;
+	background: black;
+    color: white;
+}
